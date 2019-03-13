@@ -40,7 +40,7 @@
 1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_sim_win32.h
 	<windows.h>
 
-1552467415 source:c:\users\ldc\desktop\practiceofemwin\myapp\windowdlg.c
+1552469218 source:c:\users\ldc\desktop\practiceofemwin\myapp\windowdlg.c
 	"DIALOG.h"
 
 1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\dialog.h
@@ -229,4 +229,7 @@
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 	"GUI_Debug.h"
+
+1552467685 source:c:\users\ldc\desktop\practiceofemwin\myapp\myapp.c
+	"DIALOG.h"
 

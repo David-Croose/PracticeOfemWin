@@ -76,7 +76,7 @@ static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
 *       _cbDialog
 */
 static void _cbDialog(WM_MESSAGE * pMsg) {
-  WM_HWIN hItem;
+  WM_HWIN _hItem, hItem;
   int     NCode;
   int     Id;
   // USER START (Optionally insert additional variables)
@@ -110,6 +110,17 @@ static void _cbDialog(WM_MESSAGE * pMsg) {
         break;
       case WM_NOTIFICATION_RELEASED:
         // USER START (Optionally insert code for reacting on notification message)
+        _hItem = MESSAGEBOX_Create("\nwanna yield 1234567\n89 abc defghi zyzyfuyfuykvffu\ncukyiyr67475xuy#%^#**44 ", "warning", GUI_MESSAGEBOX_CF_MODAL);
+        WM_DeleteWindow(WM_GetDialogItem(_hItem, GUI_ID_OK));
+        // WM_HideWindow(WM_GetDialogItem(_hItem, GUI_ID_OK));
+
+        hItem = WM_GetDialogItem(_hItem, GUI_ID_TEXT0);
+        TEXT_SetTextAlign(hItem, GUI_TA_CENTER | GUI_TA_VCENTER);
+        TEXT_SetWrapMode(hItem, GUI_WRAPMODE_WORD);
+
+        GUI_Delay(1000);
+
+        WM_DeleteWindow(_hItem);
         // USER END
         break;
       // USER START (Optionally insert additional code for further notification handling)
@@ -177,6 +188,8 @@ static void _cbDialog(WM_MESSAGE * pMsg) {
 WM_HWIN CreateWindow(void);
 WM_HWIN CreateWindow(void) {
   WM_HWIN hWin;
+
+
 
   hWin = GUI_CreateDialogBox(_aDialogCreate, GUI_COUNTOF(_aDialogCreate), _cbDialog, WM_HBKWIN, 0, 0);
   return hWin;
