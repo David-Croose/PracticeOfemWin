@@ -1,49 +1,49 @@
 # depslib dependency file v1.0
-1435647574 source:c:\users\ldc\desktop\practiceofemwin\config\guiconf.c
+1553170902 source:c:\users\ldc\desktop\practiceofemwin\config\guiconf.c
 	"GUI.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\gui.h
 	"GUI_ConfDefaults.h"
 	"GUI_Type.h"
 	"GUI_Version.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_confdefaults.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_confdefaults.h
 	"GUIConf.h"
 
-1435647574 c:\users\ldc\desktop\practiceofemwin\config\guiconf.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\config\guiconf.h
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_type.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_type.h
 	"LCD.h"
 	"GUIConf.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\lcd.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\lcd.h
 	"GUI_ConfDefaults.h"
 	"Global.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\global.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\global.h
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_version.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_version.h
 
-1435649900 source:c:\users\ldc\desktop\practiceofemwin\config\lcdconf.c
+1553170902 source:c:\users\ldc\desktop\practiceofemwin\config\lcdconf.c
 	"GUI.h"
 
-1435647574 source:c:\users\ldc\desktop\practiceofemwin\config\simconf.c
+1553170902 source:c:\users\ldc\desktop\practiceofemwin\config\simconf.c
 	"LCD_SIM.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\lcd_sim.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\lcd_sim.h
 	"LCD.h"
 
-1435647574 source:c:\users\ldc\desktop\practiceofemwin\simulation\winmain.c
+1553170903 source:c:\users\ldc\desktop\practiceofemwin\simulation\winmain.c
 	<windows.h>
 	"GUI_SIM_Win32.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_sim_win32.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_sim_win32.h
 	<windows.h>
 
-1552469218 source:c:\users\ldc\desktop\practiceofemwin\myapp\windowdlg.c
+1554346205 source:c:\users\ldc\desktop\practiceofemwin\myapp\windowdlg.c
 	"DIALOG.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\dialog.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\dialog.h
 	"WM.h"
 	"BUTTON.h"
 	"CALENDAR.h"
@@ -72,164 +72,164 @@
 	"TREEVIEW.h"
 	"KNOB.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\wm.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\wm.h
 	"GUI_ConfDefaults.h"
 	"GUI_Type.h"
 	"WM_GUI.h"
 	"GUI.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\wm_gui.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\wm_gui.h
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\button.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\button.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\dialog_intern.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\dialog_intern.h
 	"WM.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\widget.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\widget.h
 	"WM_Intern.h"
 	"SCROLLBAR.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\wm_intern.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\wm_intern.h
 	"WM.h"
 	"GUI_Private.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_private.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_private.h
 	"GUI.h"
 	"LCD_Protected.h"
 	"GUI_Debug.h"
 	"WM_GUI.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\lcd_protected.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\lcd_protected.h
 	"LCD.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_debug.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\gui_debug.h
 	<stddef.h>
 	"GUI.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\scrollbar.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\scrollbar.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\calendar.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\calendar.h
 	"WM.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\checkbox.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\checkbox.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\choosecolor.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\choosecolor.h
 	"WM.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\choosefile.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\choosefile.h
 	"WM.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\dropdown.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\dropdown.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"LISTBOX.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\listbox.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\listbox.h
 	"WM.h"
 	"WIDGET.h"
 	"DIALOG_Intern.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\edit.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\edit.h
 	"WM.h"
 	"DIALOG_Intern.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\framewin.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\framewin.h
 	"WM.h"
 	"WIDGET.h"
 	"DIALOG_Intern.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\graph.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\graph.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\header.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\header.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\iconview.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\iconview.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\image.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\image.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\listview.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\listview.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"ICONVIEW.h"
 	"HEADER.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\listwheel.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\listwheel.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\menu.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\menu.h
 	"WM.h"
 	"WIDGET.h"
 	"DIALOG_Intern.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\multiedit.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\multiedit.h
 	"WM.h"
 	"DIALOG_Intern.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\multipage.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\multipage.h
 	"WM.h"
 	"DIALOG.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\progbar.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\progbar.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\radio.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\radio.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\slider.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\slider.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\spinbox.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\spinbox.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 	"GUI_Debug.h"
 	"EDIT.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\text.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\text.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 	"GUI_Debug.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\treeview.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\treeview.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 
-1435647576 c:\users\ldc\desktop\practiceofemwin\gui\include\knob.h
+1553170902 c:\users\ldc\desktop\practiceofemwin\gui\include\knob.h
 	"WM.h"
 	"DIALOG_Intern.h"
 	"WIDGET.h"
 	"GUI_Debug.h"
 
-1552467685 source:c:\users\ldc\desktop\practiceofemwin\myapp\myapp.c
+1553170903 source:c:\users\ldc\desktop\practiceofemwin\myapp\myapp.c
 	"DIALOG.h"
 
